@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thmhassan.github.io/mopquote-support/sitemap.xml

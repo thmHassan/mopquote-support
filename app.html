@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Room-by-room cleaning quote app for independent cleaners | MopQuote</title>
+  <meta name="description" content="MopQuote helps independent cleaners build itemised estimates for only the rooms and services a customer wants, using their own prices. Save and share from your phone.">
+  <link rel="canonical" href="https://thmhassan.github.io/mopquote-support/app.html">
+  <link rel="icon" type="image/png" href="icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MopQuote — room-by-room cleaning quotes">
+  <meta property="og:description" content="Build a clear cleaning estimate for only the work requested, using your own prices.">
+  <meta property="og:url" content="https://thmhassan.github.io/mopquote-support/app.html">
+  <meta property="og:image" content="https://thmhassan.github.io/mopquote-support/screenshot-android.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f8f5; color: #172f3a; font: 17px/1.6 system-ui, sans-serif; }
+    a { color: #126f64; }
+    .wrap { max-width: 1080px; margin: auto; padding: 0 22px; }
+    header { background: #fff; border-bottom: 1px solid #dce7e3; }
+    header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 14px; padding-bottom: 14px; }
+    .brand { display: flex; align-items: center; gap: 10px; color: #172f3a; font-size: 1.2rem; font-weight: 800; text-decoration: none; }
+    .brand img { width: 34px; height: 34px; border-radius: 8px; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { color: #172f3a; font-size: .9rem; text-decoration: none; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, .6fr); gap: 36px; align-items: center; padding: 55px 0 50px; }
+    .eyebrow { background: #9ee8c8; padding: 5px 12px; border-radius: 99px; font-size: .85rem; font-weight: 800; }
+    h1 { font-size: clamp(2.3rem, 5vw, 4rem); line-height: 1.08; letter-spacing: -.035em; margin: 20px 0; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); line-height: 1.2; margin: 0 0 15px; }
+    h3 { line-height: 1.3; margin-bottom: 8px; }
+    .lead { font-size: 1.16rem; }
+    .status { border-left: 4px solid #36a886; padding-left: 14px; color: #3b585b; }
+    .phone { width: min(100%, 320px); border: 10px solid #172f3a; border-radius: 30px; box-shadow: 0 18px 50px #172f3a22; justify-self: center; }
+    section { padding: 38px 0; border-top: 1px solid #dce7e3; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { background: #fff; border: 1px solid #dce7e3; border-radius: 18px; padding: 20px; }
+    .card p { margin-bottom: 0; }
+    table { border-collapse: collapse; width: min(100%, 580px); background: #fff; }
+    th, td { border-bottom: 1px solid #dce7e3; padding: 10px 14px; text-align: left; }
+    td:last-child, th:last-child { text-align: right; }
+    tfoot { font-weight: 800; background: #ddf7eb; }
+    .note { color: #4d6469; font-size: .92rem; }
+    .faq { max-width: 760px; }
+    .faq article { border-bottom: 1px solid #dce7e3; padding: 9px 0; }
+    footer { background: #172f3a; color: #fff; padding: 28px 0; }
+    footer a { color: #9ee8c8; }
+    @media (max-width: 700px) { .hero { grid-template-columns: 1fr; padding-top: 35px; } .grid { grid-template-columns: 1fr; } header .wrap { flex-direction: column; align-items: flex-start; } .phone { max-height: 430px; width: auto; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap">
+    <a class="brand" href="app.html"><img src="icon.png" alt="">MopQuote</a>
+    <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#questions">Questions</a><a href="./">Privacy</a><a href="#support">Support</a></nav>
+  </div></header>
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <span class="eyebrow">For independent cleaners</span>
+        <h1>Quote only the rooms your customer wants cleaned.</h1>
+        <p class="lead">MopQuote turns your own room and service prices into a clear, itemised cleaning estimate. Choose the work, check the total, then save or share the quote from your phone.</p>
+        <p class="status"><strong>Release status:</strong> The Android, iPhone and iPad apps have been built and tested. They are not yet available in the app stores.</p>
+      </div>
+      <img class="phone" src="screenshot-android.png" width="1080" height="2400" alt="MopQuote screen showing room choices and an example-prices notice">
+    </div>
+    <section id="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">How MopQuote works</h2>
+      <div class="grid">
+        <div class="card"><h3>1. Set your prices</h3><p>Confirm or change the example rates, and add the services you offer. MopQuote does not choose a market rate for you.</p></div>
+        <div class="card"><h3>2. Choose the scope</h3><p>Add only the requested rooms and services. Include travel, other agreed work and notes where needed.</p></div>
+        <div class="card"><h3>3. Save or share</h3><p>Review the itemised total, save the estimate on your device or send its text through your phone’s sharing menu.</p></div>
+      </div>
+    </section>
+    <section aria-labelledby="example-title">
+      <h2 id="example-title">What does a partial-home quote look like?</h2>
+      <p>If a customer wants one kitchen, one bathroom and two bedrooms cleaned, you can include those rooms only. With example prices, the estimate would read:</p>
+      <table><thead><tr><th scope="col">Work</th><th scope="col">Example amount</th></tr></thead><tbody><tr><td>Kitchen × 1</td><td>£20</td></tr><tr><td>Bathroom × 1</td><td>£25</td></tr><tr><td>Bedroom × 2</td><td>£30</td></tr></tbody><tfoot><tr><td>Total estimate</td><td>£75</td></tr></tfoot></table>
+      <p class="note">These figures demonstrate the calculation; they are not recommended cleaning rates. Set your own prices and confirm the job’s condition and scope before sending a quote.</p>
+    </section>
+    <section id="questions" class="faq" aria-labelledby="questions-title">
+      <h2 id="questions-title">Common questions</h2>
+      <article><h3>Can I quote a few rooms instead of a whole house?</h3><p>Yes. Select only the requested rooms or services. Unselected work is left out of the estimate.</p></article>
+      <article><h3>Does MopQuote tell me what to charge?</h3><p>No. The starting prices are examples. You must confirm or change your own prices before saving or sharing a quote.</p></article>
+      <article><h3>Can I add extras and explain what is included?</h3><p>Yes. Add travel or other agreed work and write scope notes. The shared quote includes the itemised estimate and notes.</p></article>
+      <article><h3>Do I need an account or internet connection?</h3><p>No account is needed to build and save quotes on your device. Sending a quote may require internet access in the messaging or email app you choose.</p></article>
+      <article><h3>Where are customer details stored?</h3><p>Saved quotes and prices stay in the app on your device. The developer does not receive them. Read the <a href="./">privacy policy</a> for details about sharing and deletion.</p></article>
+    </section>
+    <section id="support" aria-labelledby="support-title">
+      <h2 id="support-title">Support</h2>
+      <p>For an app issue or feedback, <a href="https://github.com/thmHassan/mopquote-support/issues/new">open a support request</a>. Do not include a customer’s private details in a public request. A direct support email will be added before store submission.</p>
+      <p><a href="./">Read the privacy policy</a>.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">MopQuote · <a href="./">Privacy policy</a> · <a href="#support">Support</a></div></footer>
+</body>
+</html>
